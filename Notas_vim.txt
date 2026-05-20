@@ -1,0 +1,10 @@
+Abrimos el editor "vim" sin decirle que archivo crear, y ahora queremos salir y guardar (:wq), Vim te dice: E32: No file name. 
+1.- Colocar nombre y guardar:
+	:w nombre_del_archivo.txt (esto guarda el archivo).
+	luego se escribe :q para salir. 
+
+Solo un paso:
+	:wq nombre_del_archivo.txt
+
+2.- Solo salir sin guardar nada
+	:q! (solo volver a la terminal). El signo "!" le ordena a vim de "andarsene" sin cambios.
