@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Tabla
+    order:
+      - file.basename
+      - file.size
+      - file.ext
+    sort:
+      - property: file.name
+        direction: ASC
